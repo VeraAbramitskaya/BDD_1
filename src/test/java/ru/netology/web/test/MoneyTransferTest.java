@@ -10,7 +10,7 @@ import ru.netology.web.page.LoginPage;
 import static com.codeborne.selenide.Selenide.open;
 import static ru.netology.web.data.DataHelper.*;
 
-class MoneyTransferTest {
+public class MoneyTransferTest {
 
   LoginPage loginPage;
   DashboardPage dashboardPage;
