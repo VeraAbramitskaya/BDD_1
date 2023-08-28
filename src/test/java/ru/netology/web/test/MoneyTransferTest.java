@@ -1,6 +1,7 @@
 package ru.netology.web.test;
 
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import ru.netology.web.data.DataHelper;
@@ -14,6 +15,11 @@ public class MoneyTransferTest {
 
   LoginPage loginPage;
   DashboardPage dashboardPage;
+
+  @BeforeAll
+  static void setUpAll() {
+      System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");}
+
 
   @BeforeEach
   void setup() {
