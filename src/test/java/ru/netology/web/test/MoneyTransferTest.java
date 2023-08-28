@@ -16,9 +16,9 @@ public class MoneyTransferTest {
   LoginPage loginPage;
   DashboardPage dashboardPage;
 
-  @BeforeAll
-  static void setUpAll() {
-      System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");}
+//  @BeforeAll
+//  static void setUpAll() {
+//      System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");}
 
 
   @BeforeEach
